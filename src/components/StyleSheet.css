@@ -1,0 +1,17 @@
+body {
+    color:brown;
+    text-align: center;
+    font-size: 20px;
+   
+    
+    text-transform: uppercase;
+}
+.para {
+    color: goldenrod;
+    text-transform: capitalize;
+    text-align: justify;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+}
