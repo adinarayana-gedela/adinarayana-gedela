@@ -13,6 +13,10 @@ import Conditionals from './components/Conditionals';
 
 import Cssinline from './components/Cssinline';
 import Header from './components/Header';
+import StateExam1 from './components/StateExam1';
+import StateExam2 from './components/StateExam2';
+import StateExam from './components/StateExam';
+import EffectExam from './components/EffectExam';
 
 
 
@@ -21,10 +25,16 @@ import Header from './components/Header';
 function App() {
   return (
     <div>
-      <Header />
+      <EffectExam />
+    <StateExam1 />
+    <StateExam2 />
+    <StateExam />
+
+
+      {/*<Header />
       <Cssinline />
       {/*<Namelist />
-      */}
+      
    
   <Destructuring name="Adi" heroName="Narayana" />
     <Destructure1 name="Siva" heroName="Balaga" />
@@ -37,7 +47,7 @@ function App() {
   </CompFun>
   <StateClass />
   <StateClass1 />
-  <Conditionals />
+  <Conditionals />*/}
    
    
 
